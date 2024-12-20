@@ -1,0 +1,6 @@
+12/21/2024 12:01:43 am [main] INFO  api.test.StoreTests -  Placing order for a pet 
+12/21/2024 12:01:44 am [main] INFO  api.test.StoreTests -  Order Placed successfully 
+12/21/2024 12:01:44 am [main] INFO  api.test.StoreTests -  Delete the order created 
+12/21/2024 12:01:45 am [main] INFO  api.test.StoreTests -  Deleted Successfully 
+12/21/2024 12:01:45 am [main] INFO  api.test.StoreTests -  Fetching pet details by a Valid Id 
+12/21/2024 12:01:46 am [main] INFO  api.test.StoreTests -  Fetching order details by a Invalid Id 

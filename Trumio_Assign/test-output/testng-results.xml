@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-21T00:01:30 IST" name="Suite" finished-at="2024-12-21T00:01:55 IST" duration-ms="25396">
+    <groups>
+    </groups>
+    <test started-at="2024-12-21T00:01:30 IST" name="Test" finished-at="2024-12-21T00:01:55 IST" duration-ms="25396">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@130d63be]" started-at="2024-12-21T00:01:48 IST" name="setup" finished-at="2024-12-21T00:01:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddUser()[pri:1, instance:api.test.UserTests@130d63be]" started-at="2024-12-21T00:01:48 IST" name="testAddUser" description="Create new user" finished-at="2024-12-21T00:01:49 IST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method signature="testGetUser_validUsername()[pri:2, instance:api.test.UserTests@130d63be]" started-at="2024-12-21T00:01:49 IST" name="testGetUser_validUsername" description="Get User Details by Username" finished-at="2024-12-21T00:01:51 IST" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser_validUsername -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@130d63be]" started-at="2024-12-21T00:01:51 IST" name="testUpdateUser" description="Update User Details by Username" finished-at="2024-12-21T00:01:53 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:5, instance:api.test.UserTests@130d63be]" started-at="2024-12-21T00:01:53 IST" name="testDeleteUser" description="Delete User" finished-at="2024-12-21T00:01:55 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.test.UserTests -->
+      <class name="api.test.PetTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:30 IST" name="setup" finished-at="2024-12-21T00:01:31 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddNewPet()[pri:1, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:31 IST" name="testAddNewPet" description="Adding a new pet to the store" finished-at="2024-12-21T00:01:34 IST" duration-ms="3359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewPet -->
+        <test-method signature="testUpdatePet()[pri:2, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:34 IST" name="testUpdatePet" description="Update existing pet details" finished-at="2024-12-21T00:01:35 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testDeletePet()[pri:3, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:35 IST" name="testDeletePet" description="Delete the created pet " finished-at="2024-12-21T00:01:36 IST" depends-on-methods="api.test.PetTests.testAddNewPet" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+        <test-method signature="testUpdatePetByForm()[pri:4, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:36 IST" name="testUpdatePetByForm" description="Update pet details by Id with form data" finished-at="2024-12-21T00:01:41 IST" duration-ms="4525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePetByForm -->
+        <test-method signature="testGetExistingPet_validId()[pri:5, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:41 IST" name="testGetExistingPet_validId" description="Fetching pet details by a valid Id" finished-at="2024-12-21T00:01:42 IST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetExistingPet_validId -->
+        <test-method signature="testGetExistingPet_InvalidId()[pri:6, instance:api.test.PetTests@9597028]" started-at="2024-12-21T00:01:42 IST" name="testGetExistingPet_InvalidId" description="Fetching pet details by a invalid Id" finished-at="2024-12-21T00:01:43 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetExistingPet_InvalidId -->
+      </class> <!-- api.test.PetTests -->
+      <class name="api.test.StoreTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.StoreTests@7d8995e]" started-at="2024-12-21T00:01:43 IST" name="setup" finished-at="2024-12-21T00:01:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOrderPet()[pri:1, instance:api.test.StoreTests@7d8995e]" started-at="2024-12-21T00:01:43 IST" name="testOrderPet" finished-at="2024-12-21T00:01:44 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderPet -->
+        <test-method signature="testDeleteOrder()[pri:2, instance:api.test.StoreTests@7d8995e]" started-at="2024-12-21T00:01:44 IST" name="testDeleteOrder" description="Delete the order created" finished-at="2024-12-21T00:01:45 IST" depends-on-methods="api.test.StoreTests.testOrderPet" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteOrder -->
+        <test-method signature="testGetOrder_validId()[pri:3, instance:api.test.StoreTests@7d8995e]" started-at="2024-12-21T00:01:45 IST" name="testGetOrder_validId" description="Fetching order details by a valid order Id i.e btw 1 and 10" finished-at="2024-12-21T00:01:46 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrder_validId -->
+        <test-method signature="testGetOrder_InvalidId()[pri:4, instance:api.test.StoreTests@7d8995e]" started-at="2024-12-21T00:01:46 IST" name="testGetOrder_InvalidId" description="Fetching order details by a invalid Id" finished-at="2024-12-21T00:01:48 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrder_InvalidId -->
+      </class> <!-- api.test.StoreTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

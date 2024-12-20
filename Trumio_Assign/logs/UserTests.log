@@ -1,0 +1,14 @@
+12/21/2024 12:01:48 am [main] INFO  api.test.UserTests -  Fetching user data  
+12/21/2024 12:01:48 am [main] INFO  api.test.UserTests -  Creating new user 
+12/21/2024 12:01:49 am [main] INFO  api.test.UserTests -  User details 
+12/21/2024 12:01:49 am [main] INFO  api.test.UserTests -  User Created successfully 
+12/21/2024 12:01:49 am [main] INFO  api.test.UserTests -  Fetching user details by valid username 
+12/21/2024 12:01:50 am [main] INFO  api.test.UserTests -  User Fetched successfully 
+12/21/2024 12:01:50 am [main] INFO  api.test.UserTests -  Fetching user details by Invalid username- usergetInputdata.json 
+12/21/2024 12:01:51 am [main] INFO  api.test.UserTests -  Fetching testupdatedata.json 
+12/21/2024 12:01:51 am [main] INFO  api.test.UserTests -  Updating user data except username 
+12/21/2024 12:01:53 am [main] INFO  api.test.UserTests -  User updated Successfully 
+12/21/2024 12:01:53 am [main] INFO  api.test.UserTests -  Fetching valid username from 
+12/21/2024 12:01:54 am [main] INFO  api.test.UserTests -  Deleted Successfully 
+12/21/2024 12:01:54 am [main] INFO  api.test.UserTests -  Fetching Invalid username testupdatedata.json
+12/21/2024 12:01:55 am [main] INFO  api.test.UserTests -  Deletion failed- Successfully 

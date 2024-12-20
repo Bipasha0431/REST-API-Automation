@@ -1,0 +1,17 @@
+12/21/2024 12:01:31 am [main] INFO  api.test.PetTests -  Fetching pet details 
+12/21/2024 12:01:31 am [main] INFO  api.test.PetTests -  Adding new pet 
+12/21/2024 12:01:33 am [main] INFO  api.test.PetTests -  New pet details below 
+12/21/2024 12:01:34 am [main] INFO  api.test.PetTests -  New Pet Added successfully 
+12/21/2024 12:01:34 am [main] INFO  api.test.PetTests -  Updating existing pet details 
+12/21/2024 12:01:35 am [main] INFO  api.test.PetTests -  Pet details Updated 
+12/21/2024 12:01:35 am [main] INFO  api.test.PetTests -  Delete the created pet 
+12/21/2024 12:01:36 am [main] INFO  api.test.PetTests -  Deleted Successfully 
+12/21/2024 12:01:36 am [main] INFO  api.test.PetTests -  Updating existing pet details with only Id 
+12/21/2024 12:01:37 am [main] INFO  api.test.PetTests -  Pet details Updated 
+12/21/2024 12:01:37 am [main] INFO  api.test.PetTests -  Updating existing pet details with form data 
+12/21/2024 12:01:39 am [main] INFO  api.test.PetTests -  Pet details Updated 
+12/21/2024 12:01:39 am [main] INFO  api.test.PetTests -  Getting Updated details 
+12/21/2024 12:01:40 am [main] INFO  api.test.PetTests -  Updating existing pet details with Invalid Id 
+12/21/2024 12:01:41 am [main] INFO  api.test.PetTests -  Pet details Updated 
+12/21/2024 12:01:41 am [main] INFO  api.test.PetTests -  Fetching pet details by a valid Id  
+12/21/2024 12:01:42 am [main] INFO  api.test.PetTests -  Fetching pet details by a Invalid Id 

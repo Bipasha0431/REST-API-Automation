@@ -1,0 +1,43 @@
+{
+	"data":{
+		 "id": 19,
+		  "category": {
+		    "id": 1,
+		    "name": "Cat"
+		  },
+		  "name": "Meow",
+		  "photoUrls": [
+		    "dummyUrl"
+		  ],
+		  "tags": [
+		    {
+		      "id": 0,
+		      "name": "DummyTag"
+		    }
+		  ],
+		  "status": "available"
+	
+	},
+	"data1":{
+		"ValidCase":{
+			"OnlyId":{
+				"id":6
+			},
+			"data":{
+				"id":6,
+				"name":"hiba",
+				"status":"available"
+				
+			}
+	
+		},
+		"InvalidCase":{
+			
+				"id":19
+		}
+	
+	}
+	
+		 
+  
+}

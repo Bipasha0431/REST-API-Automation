@@ -1,0 +1,19 @@
+{ 
+	"Data":{
+		"username":"Shreya01",
+		"newData":{
+		  "id": 1,
+		  "username": "Shreya01",
+		  "firstName": "shreya",
+		  "lastName": "sharma",
+		  "email": "shreya@gmail.com",
+		  "password": "sh12345",
+		  "phone": "9372195665",
+		  "userStatus": 1
+		
+		}
+	}
+		 
+
+	 
+}

@@ -1,0 +1,18 @@
+{
+  "id": 19,
+  "category": {
+    "id": 0,
+    "name": "Dogs"
+  },
+  "name": "Bruno",
+  "photoUrls": [
+    "dummyUrl"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dummyTag"
+    }
+  ],
+  "status": "available"
+}

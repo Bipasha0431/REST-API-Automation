@@ -1,0 +1,10 @@
+{
+	"ValidCase":{
+		"username":"Shreya01"
+	
+	},
+	"InvalidCase":{
+		"username":"user1"
+	}
+
+}
